@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#bg {
+    height: 100%;
+    width: 100%;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+}
+
+h2 {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: lato;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    mix-blend-mode: difference;
+}
+
+h2 img {
+    height: 55px;
+    width: 70px;
+}
+
+h2 span {
+    color: rgb(98, 192, 4);
+}
